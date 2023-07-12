@@ -1,3 +1,4 @@
+# sample code for gui interface for purchasing and selling land
 import tkinter as tk
 import webbrowser
 
