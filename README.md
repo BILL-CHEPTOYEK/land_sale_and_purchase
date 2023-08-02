@@ -1,36 +1,72 @@
-# land_sale_and_purchase
-# PROBLEM DESCRIPTION
-System Description: A lands sale and purchase gui system
+# Land Purchase and Sale GUI Interface
 
-The System is a comprehensive solution developed to address the challenges associated with land disputes in Uganda. The system aims to streamline land ownership records, facilitate transparent land transactions, and prevent fraudulent activities, such as multiple sales of the same land or encroachment on rightful boundaries.
+This is a simple GUI interface built using Python and Tkinter for querying and displaying details about land plots. The application allows users to enter a plot number and retrieve information about the plot, including its owner, location, and availability for sale. Additionally, the interface provides an option to open the plot location in Google Maps.
 
-# Problem Statement:
-Land disputes in Uganda have been a significant issue, resulting in conflicts, legal battles, and social unrest. The existing land administration systems often lack transparency, leading to confusion, overlapping claims, and fraudulent practices. Landowners and potential buyers face challenges in verifying land ownership, boundaries, and ensuring secure transactions.
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Solution:
-The System i developed offers an integrated platform that centralizes land ownership records and facilitates secure land transactions. The system addresses the problem by implementing the following key features:
+## Description
 
-1. Centralized Land Ownership Records:
-The system consolidates all land ownership records, including details of landowners, boundaries, and historical transactions. This comprehensive database ensures a single source of truth and eliminates inconsistencies or duplicate entries.
+The Land Purchase and Sale GUI interface is designed to provide a user-friendly way of accessing information about different land plots. The plot details are stored in a Python dictionary and can be easily queried using the plot number.
 
-2. Secure Transaction Management:
-The system provides a platform for conducting land transactions securely. It enables landowners to register their land and record sales or transfers electronically. Potential buyers can access the system to verify the authenticity of ownership, check for any encumbrances, and confirm the boundaries before making a purchase.
+## Features
 
-3. Boundary Verification and Mapping:
-Integrated mapping and geospatial technologies enable accurate land boundary verification. The system allows landowners to demarcate their boundaries using digital mapping tools, reducing the chances of boundary disputes and encroachment.
+- Enter plot number to retrieve information about the plot.
+- View the plot owner, location (district and street), and contact number (if the plot is for sale).
+- Click on the "Open in Google Maps" button to view the plot location on Google Maps.
 
-4. Authentication and Security Measures:
-To prevent fraudulent activities, the system incorporates robust authentication measures. It ensures that only authorized individuals, such as government officials, landowners, and qualified surveyors, can access and update land records. Digital signatures and encryption mechanisms protect the integrity and confidentiality of the data.
+## Installation
 
-5. Dispute Resolution Mechanism:
-The system integrates a dedicated module for handling land dispute resolution. It provides a streamlined process for reporting and resolving disputes, involving relevant stakeholders such as mediators, land tribunals, and government authorities. This module helps expedite the resolution process and promotes fair and just outcomes.
+1. Clone the repository to your local machine using the following command:
 
-Benefits:
-- Enhanced Transparency: The system improves transparency in land ownership and transactions, reducing the potential for fraud and disputes.
-- Efficient Land Transactions: Land buyers can easily verify ownership and boundaries, facilitating smoother and more secure transactions.
-- Timely Dispute Resolution: The integrated dispute resolution mechanism helps resolve conflicts more efficiently, reducing the burden on the legal system and promoting social harmony.
-- Improved Land Administration: Centralized records and geospatial mapping enable better land administration, planning, and policy-making by government authorities.
+   ```
+   git clone https://github.com/BILL-CHEPTOYEK/land_purchase_sale_gui.git
+   ```
 
-By implementing the Land Rights Management and Dispute Resolution System, Uganda can significantly mitigate land-related conflicts, protect land rights, and foster a more transparent and efficient land administration system.
-#In most developing countries, land wrangles happen so often and they more often go in favor of the person with more money even when they ain't the genuine owners, this is mostly happens through corruption 
-#A simple python GUI interface that allows buyers and sellers' of land to find out who owns land, if they are selling and show them contact details incase they are selling
+2. Navigate to the project directory:
+
+   ```
+   cd land_purchase_sale_gui
+   ```
+
+3. Install the required Python packages:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+1. Run the Python script `land_gui.py`:
+
+   ```
+   python land_gui.py
+   ```
+
+2. The GUI window will open, prompting you to enter a plot number.
+
+3. Type the plot number in the input field and click the "Submit" button.
+
+4. If the plot exists in the dataset, the details will be displayed in the text box below.
+
+5. If the plot is for sale, you can click the "Open in Google Maps" button to view the plot location on Google Maps.
+
+## Contributing
+
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Please replace `your-username` with your actual GitHub username and make any necessary changes to the installation instructions or description as per your project's specific details.
+
+You can include more detailed information, screenshots, and usage examples in the README file to help users understand and use your application better.
+
