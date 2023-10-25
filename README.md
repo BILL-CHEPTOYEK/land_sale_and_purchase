@@ -1,4 +1,4 @@
-# Land Purchase and Sale GUI Interface
+# Land Purchase and Sale GUI Interface in python
 
 This is a simple GUI interface built using Python and Tkinter for querying and displaying details about land plots. The application allows users to enter a plot number and retrieve information about the plot, including its owner, location, and availability for sale. Additionally, the interface provides an option to open the plot location in Google Maps.
 
