@@ -66,7 +66,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Please replace `your-username` with your actual GitHub username and make any necessary changes to the installation instructions or description as per your project's specific details.
-
-You can include more detailed information, screenshots, and usage examples in the README file to help users understand and use your application better.
 
